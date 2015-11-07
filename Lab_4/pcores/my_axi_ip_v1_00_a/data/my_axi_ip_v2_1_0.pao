@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          D:/Study/first/prj_ZYNQ_PS/Lab_4/pcores/my_axi_ip_v1_00_a/data/my_axi_ip_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Jul 25 08:48:59 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib my_axi_ip_v1_00_a user_logic verilog
+lib my_axi_ip_v1_00_a my_axi_ip vhdl

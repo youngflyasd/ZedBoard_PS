@@ -1,0 +1,23 @@
+#
+# pin constraints
+#
+#
+# additional constraints
+#
+NET LD[0] LOC = T22  | IOSTANDARD=LVCMOS33;  # "LD0"
+NET LD[1] LOC = T21  | IOSTANDARD=LVCMOS33;  # "LD1"
+NET LD[2] LOC = U22  | IOSTANDARD=LVCMOS33;  # "LD2"
+NET LD[3] LOC = U21  | IOSTANDARD=LVCMOS33;  # "LD3"
+NET LD[4] LOC = V22  | IOSTANDARD=LVCMOS33;  # "LD4"
+NET LD[5] LOC = W22  | IOSTANDARD=LVCMOS33;  # "LD5"
+NET LD[6] LOC = U19  | IOSTANDARD=LVCMOS33;  # "LD6"
+NET LD[7] LOC = U14  | IOSTANDARD=LVCMOS33;  # "LD7"
+
+#======================================文件修改==============================================
+#文件名					       修改行							修改内容
+#my_axi_ip_v2_1_0.mpd			39								增添PORT LED = "", DIR = O, VEC = [7:0]
+#user_logic.v						57								增添LED，
+#user_logic.v						86								增添output        [7:0]                        LED; 
+#my_axi_ip.vhd						137							增添LED         : out std_logic_vector(7 downto 0);
+#my_axi_ip.vhd						251							增添LED         : out std_logic_vector(7 downto 0);
+#my_axi_ip.vhd						339							增添LED          => LED,

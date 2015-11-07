@@ -1,0 +1,10 @@
+-batch 
+-create my_axi_ip 
+-ver 1.00.a 
+-dir "D:\Study\first\prj_ZYNQ_PS\Lab_4" 
+-lang verilog 
+-bus axi4lite s 
+-reg 1 
+-xps 
+-ise 
+-driver 
