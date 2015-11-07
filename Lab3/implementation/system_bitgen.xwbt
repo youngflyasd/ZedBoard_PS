@@ -1,0 +1,7 @@
+INFILE=D:\_prj\Xilinx\Blog\Lab3\implementation\system.ncd
+OUTFILE=D:\_prj\Xilinx\Blog\Lab3\implementation\system.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=D:\_prj\Xilinx\Blog\Lab3\implementation
+LICENSE=WebPack
+USER_INFO=__0_0_0
