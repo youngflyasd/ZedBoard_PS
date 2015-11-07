@@ -1,0 +1,20 @@
+
+**** Build of configuration Release for project lab_6 ****
+
+make all 
+Building file: ../main.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O3 -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o"main.o" "../main.c"
+Finished building: ../main.c
+' '
+Building target: lab_6.elf
+Invoking: ARM Linux gcc linker
+arm-xilinx-linux-gnueabi-gcc  -o"lab_6.elf"  ./main.o   
+Finished building target: lab_6.elf
+' '
+Invoking: ARM Linux Print Size
+arm-xilinx-linux-gnueabi-size lab_6.elf  |tee "lab_6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1172	    292	      4	   1468	    5bc	lab_6.elf
+Finished building: lab_6.elf.size
+' '

@@ -1,0 +1,9 @@
+!SESSION 2015-07-25 14:56:46.675 -----------------------------------------------
+eclipse.buildId=Release 14.4 Build SDK_P.49d
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-07-25 15:00:04.132
+!MESSAGE Indexed 'lab_6' (0 sources, 34 headers) in 2.98 sec: 636 declarations; 802 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
